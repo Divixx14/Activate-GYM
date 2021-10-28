@@ -121,6 +121,11 @@ a:link, a:visited, a:active {
     background-image: url(../images/fondo_index.jpg);
 }
 
+.casa   {
+    background-image: url(../images/en_casa.jpg);
+    background-size: contain;
+}
+
 .paginamusculacion  {
     background-image:  url(../images/fondo_musculacion.jpg);
 }
