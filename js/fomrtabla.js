@@ -85,7 +85,7 @@ async function modificar(e){
         "edad": Number(edad)
     };
    
-    try {
+    try  {
         let res = await fetch (`${url}/${id}`, {
         "method": "PUT",
         "headers": {"Content-type":"application/json"},
